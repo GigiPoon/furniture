@@ -41,323 +41,185 @@
 <body class="theme-color-5">
 
 
-    <!-- loader start -->
+    <!-- loader start
     <div class="loader_skeleton">
-        <div class="top-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="header-contact">
-                            <ul>
-                                <li>Welcome to Our store Multikart</li>
-                                <li><i class="ri-phone-fill"></i>Call Us: 123 - 456 - 7890</li>
+        <header class="header-style-5 style-light">
+            <div class="top-header top-header-dark2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="header-contact">
+                                <ul>
+                                    <li>Welcome to Our store Multikart</li>
+                                    <li><i class="ri-phone-fill"></i>Call Us: 123 - 456 - 7890</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 text-end">
+                            <ul class="header-dropdown">
+                                <li class="mobile-wishlist"><a href="#!"><i class="ri-heart-fill"></i></a>
+                                </li>
+                                <li class="onhover-dropdown mobile-account"> <i class="ri-user-fill"></i>
+                                    My Account
+                                    <ul class="onhover-show-div">
+                                        <li><a href="login.html">Login</a></li>
+                                        <li><a href="register.html">register</a></li>
+                                    </ul>
+                                </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-end">
-                        <ul class="header-dropdown">
-                            <li class="mobile-wishlist">
-                                <a href="#!">
-                                    <i class="ri-heart-fill"></i>
-                                </a>
-                            </li>
-                            <li class="onhover-dropdown mobile-account">
-                                <i class="ri-user-fill"></i>
-                                My Account
-                            </li>
-                        </ul>
-                    </div>
                 </div>
             </div>
-        </div>
-        <header>
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="main-menu">
                             <div class="menu-left">
-                                <div class="navbar">
-                                    <a href="#!">
-                                        <div class="bar-style">
-                                            <i class="ri-bar-chart-horizontal-line sidebar-bar"></i>
+                                <div class="navbar d-block d-xl-none">
+                                    <a href="javascript:void(0)">
+                                        <div class="bar-style" id="toggle-sidebar-res1352"><i
+                                                class="ri-bar-chart-horizontal-line sidebar-bar"></i>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="brand-logo">
-                                    <a href="index.html">
-                                        <img src="./assets/images/logo.png" class="img-fluid blur-up lazyload" alt="">
-                                    </a>
+                                    <a href="index.html"><img src="../assets/images/furniture-2/logo.png"
+                                            class="img-fluid blur-up lazyload" alt=""></a>
                                 </div>
+                            </div>
+                            <div>
+                                <form class="form_search" role="form">
+                                    <input type="search" placeholder="Search any Device or Gadgets..."
+                                        class="nav-search nav-search-field">
+                                    <button type="submit" name="nav-submit-button" class="btn-search">
+                                        <i class="ri-search-line"></i>
+                                    </button>
+                                </form>
                             </div>
                             <div class="menu-right pull-right">
                                 <div>
-                                    <nav>
-                                        <div class="toggle-nav"><i class="ri-bar-chart-horizontal-line sidebar-bar"></i>
-                                        </div>
-                                        <ul class="sm pixelstrap sm-horizontal">
-                                            <li>
-                                                <div class="mobile-back text-end">Back<i
-                                                        class="fa fa-angle-right ps-2"></i>
-                                                </div>
-                                            </li>
-                                            <li><a href="index.html">Home</a></li>
-                                            <li class="mega"> </li>
-                                            <li><a href="about-page.html">About Us</a> </li>
-                                            <li><a href="category-page.html">Hot Deals</a></li>
-                                            <li><a href="product-page(thumbnail).html">Latest Products</a></li>
-                                            <li><a href="contact.html">Contact Us</a></li>
-                                        </ul>
-                                    </nav>
-                                </div>
-                                <div>
                                     <div class="icon-nav d-none d-sm-block">
                                         <ul>
-                                            <li class="onhover-div mobile-search">
-                                                <div>
-                                                    <i class="ri-search-line"></i>
-                                                </div>
+                                            <li class="onhover-div mobile-search d-xl-none d-inline-block">
+                                                <div><i class="ri-search-line"></i></div>
                                             </li>
                                             <li class="onhover-div mobile-setting">
-                                                <div>
-                                                    <i class="ri-equalizer-2-line"></i>
-                                                </div>
+                                                <div><i class="ri-settings-2-line"></i></div>
                                             </li>
                                             <li class="onhover-div mobile-cart">
-                                                <div>
-                                                    <i class="ri-shopping-cart-line"></i>
-                                                </div>
+                                                <div><i class="ri-shopping-cart-line"></i></div>
+                                                <span class="cart_qty_cls">2</span>
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-part bottom-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-3">
+                            <div class="category-menu d-none d-xl-block h-100">
+                                <div class="toggle-sidebar">
+                                    <i class="ri-bar-chart-horizontal-line sidebar-bar"></i>
+                                    <h5 class="mb-0">shop by category</h5>
+                                </div>
+                            </div>
+                            <div class="sidenav fixed-sidebar marketplace-sidebar svg-icon-menu">
+                                <nav>
+                                    <div>
+                                        <div class="sidebar-back text-start d-xl-none d-block"><i
+                                                class="fa fa-angle-left pe-2"></i> Back</div>
+                                    </div>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-9">
+                            <div class="main-nav-center">
+                                <nav class="text-start">
+                                    <div class="toggle-nav"><i class="ri-bar-chart-horizontal-line sidebar-bar"></i>
+                                    </div>
+                                    <ul class="sm pixelstrap sm-horizontal">
+                                        <li>
+                                            <div class="mobile-back text-end">Back<i class="fa fa-angle-right ps-2"></i>
+                                            </div>
+                                        </li>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li class="mega"> </li>
+                                        <li><a href="#!">About Us</a> </li>
+                                        <li><a href="#!">Hot Deals</a></li>
+                                        <li><a href="#!">Latest Products</a></li>
+                                        <li><a href="#!">Contact Us</a></li>
+                                    </ul>
+                                </nav>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
-        <div class="breadcrumb-section">
-            <div class="container">
-                <h2>Collection</h2>
-                <nav class="theme-breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item">Left Sidebar</li>
-                    </ol>
-                </nav>
+        <section class="p-0">
+            <div class="home-slider">
+                <div class="home"></div>
             </div>
-        </div>
-        <section class="section-b-space ratio_asos">
-            <div class="collection-wrapper">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-sm-3 col-xl-3 col-lg-4 collection-filter">
-                            <!-- side-bar collapse block stat -->
-                            <div class="collection-filter-block">
-                                <div class="filter-block">
-                                    <h4 class="title-ldr"></h4>
-                                    <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="filter-block">
-                                    <h4 class="title-ldr"></h4>
-                                    <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                                <div class="filter-block">
-                                    <h4 class="title-ldr"></h4>
-                                    <ul>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                        <li></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <!-- side-bar single product slider end -->
-                        </div>
-                        <div class="collection-content col-xl-9 col-lg-8">
-                            <div class="page-main-content">
-                                <div class="row">
-                                    <div class="col-sm-12">
-                                        <div class="top-banner-wrapper">
-                                            <div class="img-ldr-top"></div>
-                                            <div class="top-banner-content small-section">
-                                                <h4></h4>
-                                                <h5></h5>
-                                                <p></p>
-                                                <p></p>
-                                            </div>
-                                        </div>
-                                        <div class="collection-product-wrapper">
-                                            <div class="product-top-filter">
-                                                <div class="row m-0 w-100">
-                                                    <div class="col-xl-4">
-                                                        <div class="filter-panel">
-                                                            <h6 class="ldr-text"></h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-4 col-lg-4 col-6">
-                                                        <div class="filter-panel">
-                                                            <h6 class="ldr-text"></h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-2 col-lg-4 col-6">
-                                                        <div class="filter-panel">
-                                                            <h6 class="ldr-text"></h6>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-2 col-lg-4 d-none d-lg-block">
-                                                        <div class="filter-panel">
-                                                            <h6 class="ldr-text"></h6>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="product-wrapper-grid">
-                                                <div class="row">
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-xl-3 col-md-6 col-grid-box">
-                                                        <div class="product-box">
-                                                            <div class="img-wrapper"></div>
-                                                            <div class="product-detail">
-                                                                <h4></h4>
-                                                                <h5></h5>
-                                                                <h6></h6>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
+        </section>
+        <section class="banner-padding absolute-banner pb-0 ratio2_1">
+            <div class="container absolute-bg">
+                <div class="row partition2">
+                    <div class="col-md-4">
+                        <a href="#!">
+                            <div class="collection-banner p-right text-center">
+                                <div class="ldr-bg">
+                                    <div class="contain-banner banner-3">
+                                        <div>
+                                            <h4></h4>
+                                            <h2></h2>
+                                            <h6></h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#!">
+                            <div class="collection-banner p-right text-center">
+                                <div class="ldr-bg">
+                                    <div class="contain-banner banner-3">
+                                        <div>
+                                            <h4></h4>
+                                            <h2></h2>
+                                            <h6></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#!">
+                            <div class="collection-banner p-right text-center">
+                                <div class="ldr-bg">
+                                    <div class="contain-banner banner-3">
+                                        <div>
+                                            <h4></h4>
+                                            <h2></h2>
+                                            <h6></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
     </div>
-    <!-- loader end -->
-
+    loader end -->
 
     <!-- header start -->
     <header>
@@ -2716,7 +2578,7 @@
     <!-- Quick View modal popup end-->
 
 
-    <!-- theme setting start -->
+    <!-- theme setting start
     <div class="theme-settings">
         <button onclick="openSetting()" class="setting-sidebar btn" id="setting-icon">
             <i class="ri-sound-module-line"></i>
@@ -3384,7 +3246,7 @@
             </div>
         </div>
     </div>
-    <!-- theme setting end -->
+    theme setting end -->
 
 
     <!-- Add to cart modal popup start-->
